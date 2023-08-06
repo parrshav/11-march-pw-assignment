@@ -1,0 +1,143 @@
+Q1: What is Estimation Statistics? Explain point estimate and interval estimate.
+Estimation statistics is a branch of inferential statistics that involves making predictions or inferences about population parameters based on sample data
+There are two main types of estimates used in estimation statistics:
+1.	Point Estimate: A point estimate is a single value that is used to approximate an unknown population parameter. It is based on the sample data and provides the best guess for the value of the parameter. For example, if we want to estimate the mean height of all adults in a country, we could take a random sample of adults and calculate the sample mean
+2.	Interval Estimate (Confidence Interval): An interval estimate, also known as a confidence interval, is a range of values that is likely to contain the true population parameter with a specified level of confidence. Unlike point estimates, interval estimates provide information about the uncertainty surrounding the estimate. For example, if we have a 95% confidence interval for the mean height of adults in a country, it might be expressed as "160 cm to 170 cm." This means that we are 95% confident that the true population mean height falls within this range.
+Q2-What is Hypothesis testing? Why is it used? State the importance of Hypothesis testing.
+Hypothesis testing is a fundamental concept in inferential statistics used to make decisions or draw conclusions about a population based on sample data. It involves formulating two competing hypotheses, the null hypothesis (H0) and the alternative hypothesis (Ha), and then analyzing the sample data to determine which hypothesis is more likely to be true.
+The two hypotheses are:
+1.	Null Hypothesis (H0): It represents the status quo or the default assumption. It states that there is no significant difference or effect in the population, and any observed differences in the sample are due to random chance. Researchers or analysts often aim to disprove the null hypothesis.
+2.	Alternative Hypothesis (Ha): It contradicts the null hypothesis and suggests that there is a significant difference or effect in the population that is not due to random chance. It is the hypothesis that researchers hope to support with their data.
+
+Hypothesis testing is a fundamental concept in inferential statistics used to make decisions or draw conclusions about a population based on sample data. It involves formulating two competing hypotheses, the null hypothesis (H0) and the alternative hypothesis (Ha), and then analyzing the sample data to determine which hypothesis is more likely to be true.
+The two hypotheses are:
+1.	Null Hypothesis (H0): It represents the status quo or the default assumption. It states that there is no significant difference or effect in the population, and any observed differences in the sample are due to random chance. Researchers or analysts often aim to disprove the null hypothesis.
+2.	Alternative Hypothesis (Ha): It contradicts the null hypothesis and suggests that there is a significant difference or effect in the population that is not due to random chance. It is the hypothesis that researchers hope to support with their data.
+The main steps involved in hypothesis testing are as follows:
+1.	State the hypotheses: Define the null and alternative hypotheses based on the research question or problem.
+2.	Select a significance level (alpha): This is the threshold for determining statistical significance. Commonly used values are 0.05 (5%) or 0.01 (1%).
+3.	Collect and analyze data: Gather a representative sample from the population and use appropriate statistical tests to analyze the data.
+4.	Calculate test statistic: Compute a test statistic that quantifies the difference between the sample data and what would be expected under the null hypothesis.
+5.	Determine critical region and p-value: Compare the test statistic to critical values or calculate the p-value (the probability of obtaining results as extreme or more extreme than what was observed, assuming the null hypothesis is true).
+6.	Make a decision: If the test statistic falls within the critical region or the p-value is less than the significance level, reject the null hypothesis in favor of the alternative hypothesis. Otherwise, fail to reject the null hypothesis.
+Hypothesis testing is crucial in statistical analysis and scientific research for several reasons:
+1.	Drawing conclusions from data: It provides a formal and systematic way to draw meaningful conclusions about population parameters based on sample data.
+2.	Objectivity and scientific rigor: Hypothesis testing adds objectivity to research by providing a structured approach to analyze data and make decisions based on evidence.
+3.	Validating theories and assumptions: By testing hypotheses, researchers can determine whether their theories or assumptions about the population are supported by the data.
+4.	Decision-making: Hypothesis testing is used in various fields, including medicine, economics, psychology, and engineering, to guide decision-making processes and determine the effectiveness of interventions or treatments
+Q3-Create a hypothesis that states whether the average weight of male college students is greater than
+the average weight of female college students
+Hypothesis: The average weight of male college students is greater than the average weight of female college students.
+
+Null Hypothesis (H0): μ_male <= μ_female
+Alternative Hypothesis (Ha): μ_male > μ_female
+
+In this hypothesis:
+
+- μ_male represents the population mean weight of all male college students.
+- μ_female represents the population mean weight of all female college students.
+
+The null hypothesis states that there is no significant difference in the average weight between male and female college students, or that the average weight of male students is less than or equal to the average weight of female students. The alternative hypothesis, on the other hand, asserts that the average weight of male students is greater than the average weight of female students..
+
+
+Q6: What is a null and alternative hypothesis? Give some examples.
+The two hypotheses are:
+1.	Null Hypothesis (H0): It represents the status quo or the default assumption. It states that there is no significant difference or effect in the population, and any observed differences in the sample are due to random chance. Researchers or analysts often aim to disprove the null hypothesis.
+2.	Alternative Hypothesis (Ha): It contradicts the null hypothesis and suggests that there is a significant difference or effect in the population that is not due to random chance. It is the hypothesis that researchers hope to support with their data.
+3.	Hypothesis: The average weight of male college students is greater than the average weight of female college students.
+4.	
+5.	Null Hypothesis (H0): μ_male <= μ_female
+6.	Alternative Hypothesis (Ha): μ_male > μ_female
+7.	
+8.	In this hypothesis:
+9.	
+10.	- μ_male represents the population mean weight of all male college students.
+11.	- μ_female represents the population mean weight of all female college students.
+12.	
+13.	The null hypothesis states that there is no significant difference in the average weight between male and female college students, or that the average weight of male students is less than or equal to the average weight of female students. The alternative hypothesis, on the other hand, asserts that the average weight of male students is greater than the average weight of female students.
+Q7: Write down the steps involved in hypothesis testing.
+The main steps involved in hypothesis testing are as follows:
+1.	State the hypotheses: Define the null and alternative hypotheses based on the research question or problem.
+2.	Select a significance level (alpha): This is the threshold for determining statistical significance. Commonly used values are 0.05 (5%) or 0.01 (1%).
+3.	Collect and analyze data: Gather a representative sample from the population and use appropriate statistical tests to analyze the data.
+4.	Calculate test statistic: Compute a test statistic that quantifies the difference between the sample data and what would be expected under the null hypothesis.
+5.	Determine critical region and p-value: Compare the test statistic to critical values or calculate the p-value (the probability of obtaining results as extreme or more extreme than what was observed, assuming the null hypothesis is true).
+6.	Make a decision: If the test statistic falls within the critical region or the p-value is less than the significance level, reject the null hypothesis in favor of the alternative hypothesis. Otherwise, fail to reject the null hypothesis.
+Q7-Define p-value and explain its significance in hypothesis testing.
+7.	The p-value is a fundamental concept in hypothesis testing that represents the probability of obtaining results as extreme or more extreme than what was observed, assuming the null hypothesis (H0) is true. In other words, it measures the strength of evidence against the null hypothesis.
+8.	In hypothesis testing, the p-value helps us make a decision about whether to reject or fail to reject the null hypothesis based on the sample data. Here's how the p-value is used:
+Q11: What is Student’s t distribution? When to use the t-Distribution.
+Student's t-distribution, often referred to simply as the t-distribution, is a probability distribution that arises when estimating the population mean of a normally distributed population with a small sample size. It is a fundamental concept in inferential statistics, particularly when the sample size is small or when the population standard deviation is unknown.
+The t-distribution is similar in shape to the standard normal distribution (Z-distribution), but it has fatter tails. As the sample size increases, the t-distribution approaches the standard normal distribution.
+The t-distribution is characterized by its degrees of freedom (df). The degrees of freedom depend on the sample size (n) and are equal to (n - 1). The greater the degrees of freedom, the closer the t-distribution resembles the standard normal distribution. When to use the t-Distribution:
+The t-distribution is used in situations where the following conditions are met:
+1.	Small Sample Size: When the sample size is small (typically less than 30) and the population standard deviation is unknown, the t-distribution is preferred over the standard normal distribution for hypothesis testing or constructing confidence intervals for the population mean.
+2.	Unknown Population Standard Deviation: If the population standard deviation is unknown, the t-distribution should be used to estimate the population mean based on a sample mean.
+Q12: What is t-statistic? State the formula for t-statistic.
+The t-statistic is a measure used in hypothesis testing to determine if there is a significant difference between a sample mean and a population mean when the population standard deviation is unknown and the sample size is small. It quantifies how many standard errors the sample mean is away from the population mean under the null hypothesis.
+The formula for calculating the t-statistic is as follows:
+t = (x̄ - μ) / (s / √n)
+Where:
+•	t is the t-statistic.
+•	x̄ is the sample mean.
+•	μ is the population mean (often assumed to be a hypothesized value under the null hypothesis).
+•	s is the sample standard deviation.
+•	n is the sample size.
+Q13. A coffee shop owner wants to estimate the average daily revenue for their shop. They take a random
+sample of 50 days and find the sample mean revenue to be $500 with a standard deviation of $50.
+Estimate the population mean revenue with a 95% confidence interval.
+Margin of Error=Critical Value×Sample SizeSample/ Standard Deviation
+•	Sample Mean = $500
+•	Sample Standard Deviation= $50
+•	Sample Size = 50
+•	Critical Value (for a 95% confidence level) = 1.96
+•	Margin of Error≈13.94(through xalculation of 1.96*50/root(50))
+•	Confidence Interval=$500±13.94
+•	Confidence Interval=($486.06,$513.94)
+•	Confidence Interval=($486.06,$513.94)
+•	
+Q14. A researcher hypothesizes that a new drug will decrease blood pressure by 10 mmHg. They conduct a clinical trial with 100 patients and find that the sample mean decrease in blood pressure is 8 mmHg with a standard deviation of 3 mmHg. Test the hypothesis with a significance level of 0.05.
+
+•	Sample Mean= 8 mmHg
+•	Sample Standard Deviatio = 3 mmHg
+•	Sample Size = 100
+•	Hypothesized Mean  = 10 mmHg
+•	Significance Leve = 0.05
+•	z=-2/0.3=−6.67
+•	Now, we need to find the critical z-value corresponding to a significance level of 0.05 (two-tailed test). For a two-tailed test at a significance level of 0.05, the critical z-value is approximately ±1.96.
+•	Since the calculated z-statistic (-6.67) is much larger (in absolute value) than the critical z-value (-1.96), we can reject the null hypothesis (�0H0) in favor of the alternative hypothesis (�1H1). This means that there is significant evidence to suggest that the new drug does decrease blood pressure by 10 mmHg based on the results of the clinical trial.
+•	
+Q15. An electronics company produces a certain type of product with a mean weight of 5 pounds and a standard deviation of 0.5 pounds. A random sample of 25 products is taken, and the sample mean weight is found to be 4.8 pounds. Test the hypothesis that the true mean weight of the products is less than 5 pounds with a significance level of 0.01.
+•	Population Mean = 5 pounds
+•	Population Standard Deviation = 0.5 pounds
+•	Sample = 25
+•	Sample Mean = 4.8 pounds
+•	Significance Level = 0.01
+•	T= −0.2/0.1=−2
+•	Now, we need to find the critical t-value corresponding to a one-tailed test with a significance level of 0.01 and degrees of freedom (��df) of �−1n−1. Since the sample size is 25, the degrees of freedom will be 25−1=2425−1=24.
+•	Using a t-table or a statistical software, we find that the critical t-value for a one-tailed test at a significance level of 0.01 and 24 degrees of freedom is approximately -2.492.
+•	Since the calculated t-statistic (-2) is greater than the critical t-value (-2.492), we can reject the null hypothesis (�0H0) in favor of the alternative hypothesis (�1H1). This means that there is significant evidence to suggest that the true mean weight of the products is less than 5 pounds based on the results of the sample.
+•	
+Q16. Two groups of students are given different study materials to prepare for a test. The first group (n1 =
+30) has a mean score of 80 with a standard deviation of 10, and the second group (n2 = 40) has a mean
+score of 75 with a standard deviation of 8. Test the hypothesis that the population means for the two
+groups are equal with a significance level of 0.01.qd
+
+
+Q17. A marketing company wants to estimate the average number of ads watched by viewers during a TV
+program. They take a random sample of 50 viewers and find that the sample mean is 4 with a standard
+deviation of 1.5. Estimate the population mean with a 99% confidence interval.
+Given the sample information:
+•	Sample Mean = 4
+•	Sample Standard Deviation = 1.5
+•	Sample Size = 50
+•	Critical Value (for a 99% confidence level) = 2.576
+Let's calculate the confidence interval:
+Margin of Error=2.576×1.550Margin of Error=2.576×501.5
+Margin of Error≈0.432Margin of Error≈0.432
+Now, the confidence interval is:
+Confidence Interval=4±0.432Confidence Interval=4±0.432 
+Confidence Interval≈(3.568,4.432)
+
+
+
